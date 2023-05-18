@@ -9,19 +9,19 @@
 }
 
 body {
-    background-color: #0078AD;
-    color: white;
+    background-color: #1e1e2e;
+    color: #abbbd2;
 }
 
 div#header {
     width: 100%;
     height: 55px;
-    background: #6eac2c url(images/ui-bg_gloss-wave_50_6eac2c_500x100.png) 50% 50% repeat-x;
+    background: #00FF00 url(images/ui-bg_gloss-wave_50_6eac2c_500x100.png) 50% 50% repeat-x;
     position: absolute;
     top: 0px;
     left: 0px;
     text-align: center;
-    box-shadow: 0px 5px 15px #000;
+    box-shadow: 0px 5px 15px #585b70;
 }
 
 div#header div#header-wrapper{
@@ -33,7 +33,7 @@ div#header div#header-wrapper{
 }
 
 div#header div#header-wrapper span#name{
-    position: absolute;
+    position: right;
     left: 0px;
     top: 4px;
     font-size: 40px;
@@ -42,13 +42,20 @@ div#header div#header-wrapper span#name{
 }
 
 div#header div#header-wrapper span#subtitle{
-    position: absolute;
+    position: right;
     left: 255px;
     bottom: -27px;
     font-size: 18px;
     color: #000;
 }
 
+.pr{
+position:right ;
+text-align:right ;
+margin-right: 600px ;
+font-size:24pt ;
+
+}
 textarea {
     resize: none;
 }
@@ -79,10 +86,11 @@ div.elements-tab {
 
 div#elements-options {
     border-width: 0px;
+    text-align: right;
 }
 
 ul#elements-options-tabs {
-    padding-left: 22px;
+
 }
 
 div#elements-sortable {
@@ -141,7 +149,7 @@ div.main-section {
     margin-left: auto;
     margin-right: auto;
     border-style: solid;
-    background-color: white;
+    background-color: #fff;
     border-radius: 5px;
     min-height: 60px;
     float: none;
